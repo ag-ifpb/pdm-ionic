@@ -1,0 +1,103 @@
+#loader{
+  background: url('../img/splash.jpg') no-repeat center;
+}
+
+#loader-warning{
+  position: absolute;
+  top: 65%;
+  color: white;
+  text-align: center;
+}
+
+#home-wrapper{
+  background: url('../img/background/bg2.jpg') no-repeat center;
+}
+
+#details-wrapper{
+  margin-top: 4.1em;
+}
+
+.bar{
+  background: #ee582d;
+  padding: 0px;
+  height: auto;
+  padding-top: 1em;
+  display: block;
+  z-index: 999 !important;
+}
+
+.bar .title{
+  text-align: left;
+  color: white;
+  position: relative;
+  float: left;
+}
+
+.header .icon{
+  color: white;
+  font-size: 2em;
+  float: right;
+  margin-right: 1em;
+  margin-left: 0.25em;
+  margin-top: 0.2em;
+}
+
+.tabs{
+  margin-top: 0.9em !important;
+  background: #ee582d !important;
+}
+
+.tabs a{
+  background: #ee582d !important;
+  color: white !important;
+}
+
+.cards-wrapper{
+  position: relative;
+  color: black;
+  left: 25%;
+  width: 15.14em;
+}
+
+.cards-wrapper .item img{
+  height: 10em;
+}
+
+.item-text-wrap{
+  text-align: center;
+  font-weight: bold;
+}
+
+ion-view{
+  margin-top: 1em;
+  z-index: -1 !important;
+  height: 100vh !important;
+  background: url('../img/background/bg2.jpg') no-repeat center;
+}
+
+ion-content{
+  margin-bottom: 200px;
+}
+
+#details-img{
+  margin-left: 10vw;
+  width: 80vw;
+}
+
+#details-title{
+  margin-left: 0.2em;
+  margin-bottom: 1em;
+  margin-top: 0.2em;
+}
+
+ol, ul{
+  padding-left: 3em;
+}
+
+ol{
+  list-style: decimal;
+}
+
+ul{
+  list-style: initial;
+}
